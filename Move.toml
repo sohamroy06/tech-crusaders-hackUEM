@@ -1,0 +1,9 @@
+[package]
+name = "TicketSales"
+version = "0.0.0"
+
+[addresses]
+"TicketSales" = "0xefd823c441bd13e764ebbea1e8fbcb47a3df019fbed6406f89f703f520822de7"
+
+[dependencies]
+AptosFramework={git="https://github.com/aptos-labs/aptos-core.git",subdir="aptos-move/framework/aptos-framework/",rev="devnet"}
